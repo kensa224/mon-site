@@ -1,0 +1,261 @@
+body{
+    font-family: 'Zen Old Mincho', serif;
+  }
+  
+  section{
+     background-color: white;
+    /* border: solid black 1px;*/
+  }
+  
+  .hero{
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 100vh;
+    color: white;
+    font-size: 25px;
+  }
+  .hero-area{display: flex;
+            /*flex-direction: column;*/
+            height: 100%;
+            justify-content: space-between;
+            align-items: center;
+  
+  }
+  
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  ul{
+    display: flex;
+    list-style-type: none;
+    /*width: 300px;
+    justify-content:space-around;*/
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px 0px  2px;
+    height: 5px;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  
+  
+  li{
+    /*width: 150px;*/
+    margin: 10px;
+  }
+  h1{
+    font-size: 40px;
+    margin: 0px;
+  }
+  .p{font-size: 20px;
+    margin: 0px;
+    font-weight: 100px;
+  }
+  .hero-text{
+    margin-left: 80px;
+    margin-bottom: 200px;
+  }
+  .bouton{
+    width: 130px;
+    height: 52px;
+    background-color: coral;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100px;
+    padding-top: 2px;
+    margin-top: 15px;
+  }
+  
+  .bouton:hover{
+    background-color: #ef744b;
+  }
+  
+  .bouton:active{
+    background-color: #A9A9A9;
+    color:#b0b0b0;
+  }
+  .sociale{
+      position: relative;
+    color: white;
+    display: flex;
+  /*  width: 50px;
+    padding-top: 2px;
+    height: 5px;*/
+    justify-content: center;
+  }
+  .entete{
+    background: rgb(22,35,148);
+  background: linear-gradient(90deg, rgba(22,35,148,0.9920343137254902) 22%, rgba(122,16,11,1) 100%, rgba(11,247,225,1) 100%);
+  }
+  
+  .img{
+    width: 50px;
+    margin-left: 7px;
+    margin-top: 3px;
+    height: 50px;
+    background-color:#ffffff;
+  }
+  .facebook{
+    color: white,
+  }
+  .sub-section{
+    display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  }
+  h2{
+    font-style: normal;
+    font-size: 40px;
+  }
+  .headshot{
+    width: 200px;
+  }
+  .headshot-content{
+    display:flex;
+      border-radius: 150px;
+    align-content: center;
+  }
+  .prijet-card{
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 20px grey;
+  }
+  .projet-content{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  @media only screen and (max-width: 100px){
+    .projet-content{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  
+  
+  .sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+  .subtext{
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .projet-image{margin-top: 25px;
+              /*  width: 250px;*/
+                border-radius: 25px;
+  }
+  
+  hr{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .projet-link{
+    text-decoration: overline;
+    color:#ef744b;
+  }
+  a{
+    text-decoration: none;
+    color:#00bbbb;
+  }
+  
+  
+  .competence1{ display: flex;
+    justify-content: space-around;
+  
+  }
+  .sec{margin: 10px;
+  
+  }
+  
+  #comp{
+    display: flex;
+    justify-content: center;
+  }
+  .left{float: left; width: 30%}
+  
+  .right{float: left; width: 70%;}
+  .j{text-align: center;}
+  
+  .cleft, .cright, .sousleft, .sousright{
+    width: 50%;
+    float: left;}
+  
+  .sec::after, .exp::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .leftexp{
+    width: 45%;
+    float:left;
+  }
+  
+  .rightexp{
+    width: 50%;
+    float:left;
+    margin-left: 5%;
+  }
+  .leftexp, img{
+     width: 100%;
+     max-width: 400px;
+  }
+  /*
+  .Contact{ color: black;
+    text-align: center;
+    padding: 1px;
+  }
+  
+  .contacter{
+    padding: 1px;
+    margin: 2px;
+  }
+  footer{display: none;
+    height: 300px;
+    background-color: black;}
+  .footer{
+    color: white;
+    text-align: center;
+  }
+  
+  #footer{
+    height: 300px;
+    background-color: black;}
+  .footer{
+    color: white;
+    text-align: center;
+  }*/
+  .Hamburger{
+    display: none;
+  }
+  
+  #footer{text-align: center;
+    background-color: black;
+    height: 200px;
+  }
+  .contacter{
+    color: white;
+  }
+  .footer{text-align: center;
+    color: white;
+  }
+  @media only screen and (max-width:100px){
+    .Hamburger{
+      border: 0px;
+      background-color: transparent;
+      color: red;
+      font-size: 25px;
+      display: block;
+    }
+  }
+  .ul{
+    display: none;
+  }
+  
